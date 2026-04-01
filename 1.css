@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    background: #e6e6e6;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    padding: 20px 0;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    background: white;
+    border: 1px solid #cfcfcf;
+}
+
+/* ШАПКА */
+.header img {
+    width: 100%; /* фото на всю ширину */
+    display: block;
+}
+
+/* ТЕКСТ */
+.content {
+    padding: 20px;
+    color: #333;
+    font-size: 14px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+/* КАРТКИ */
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-list-item {
+    width: 48%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.services-list-item img {
+    width: 100%;
+    height: auto;
+}
+
+.price {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* КНОПКИ */
+.btn {
+    display: block;
+    background: #ff3b3b;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.facebook {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* ФУТЕР */
+.footer {
+    background: #1fa3b1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.social img {
+    width: 24px;
+    margin: 5px;
+}
+
+.doc {
+    margin: 10px 0;
+}
+
+.unsubscribe a {
+    color: white;
+}
